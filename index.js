@@ -18,12 +18,10 @@ function yourAnimal() {
 function add2(n) {
   return n + 2
 }
-  
+
+const funk = "FUNKY!"
 function funkyFunction() {
-  function theFunk(){
-    return 'FUNKY!'
-  } 
-  return function theFunk(){}
+  return function theFunk(){return funk}
 }
 
 
