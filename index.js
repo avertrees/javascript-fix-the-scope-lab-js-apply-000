@@ -27,7 +27,7 @@ function funkyFunction() {
   }
 }
 
-function theFunk(){
-  return 'FUNKY!'
-}
+// function theFunk(){
+//   return 'FUNKY!'
+// }
 
