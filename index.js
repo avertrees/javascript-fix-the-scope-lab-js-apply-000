@@ -21,11 +21,13 @@ function add2(n) {
 
 
 var theFunk = function funkyFunction() {
-  return function theFunk() {
-    return "FUNKY!"
-  }
+  return theFunk()
 }
 
-
+function theFunk(){
+  
+    return "FUNKY!"
+  
+}
 
 
