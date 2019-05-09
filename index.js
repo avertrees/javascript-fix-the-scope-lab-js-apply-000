@@ -19,7 +19,7 @@ function add2(n) {
   return n + 2
 }
 
-const funk = "FUNKY!"
+const funk = 'FUNKY!'
 function funkyFunction() {
   return function theFunk(){return funk}
 }
