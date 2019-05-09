@@ -22,10 +22,10 @@ function add2(n) {
 
   
 function funkyFunction() {
-  function theFunk(){
-    return 'FUNKY!'
+  function theFunk(word){
+    return word
   } 
-  return function theFunk(){}
+  return function theFunk("FUNKY!"){}
 }
 
 
