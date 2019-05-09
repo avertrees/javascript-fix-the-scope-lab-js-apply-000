@@ -24,6 +24,6 @@ function funkyFunction() {
 }
 
 function theFunk(){
-    return "FUNKY!"
+  return "FUNKY!"
 }
 
